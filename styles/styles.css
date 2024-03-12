@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url('../img/lineas.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+tr:hover {
+    background-color: #5e5e6b;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #e00404;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+a:hover {
+    background-color: #4b504f;
+}
+.center {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
